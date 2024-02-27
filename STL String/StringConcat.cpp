@@ -11,6 +11,9 @@ int main ()
 
     s += c;
     s += s1;
+    //s.clear();// Use clear function
+
+    s = s1;
 
 
 
