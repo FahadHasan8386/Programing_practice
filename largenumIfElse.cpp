@@ -16,14 +16,18 @@ int main() {
     int thirdMax = INT_MIN;
 
     for (int i = 1; i < 5; ++i) {
+
         if (numbers[i] > maxNum) {
+
             thirdMax = secondMax;
             secondMax = maxNum;
             maxNum = numbers[i];
         } else if (numbers[i] > secondMax) {
+
             thirdMax = secondMax;
             secondMax = numbers[i];
         } else if (numbers[i] > thirdMax) {
+
             thirdMax = numbers[i];
         }
     }
