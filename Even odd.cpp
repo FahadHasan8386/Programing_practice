@@ -10,6 +10,6 @@ int main ()
         cout << "Even "<<endl;
     }
     else {
-        cout << "Odd " <<endl;
+        cout << "Odd <<endl;
     }
 }
