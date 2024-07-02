@@ -16,4 +16,12 @@ int main()
     {
         cout << u.first <<  " " <<u.second <<endl;
     }
+    cout << endl;
+
+    sort (v.rbegin(),v.rend() );
+
+    for (auto u : v)
+    {
+        cout << u.first <<  " " <<u.second <<endl;
+    }
 }
